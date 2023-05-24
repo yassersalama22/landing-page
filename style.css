@@ -91,3 +91,34 @@ h1 {
 .hero_right {
     padding:16px;
 }
+
+.card img {
+    width: 165px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #3b81f6;
+    display: block;
+    padding: 16px;
+}
+
+.card img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
