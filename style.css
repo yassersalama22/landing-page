@@ -214,3 +214,20 @@ figure {
 .secondry-call-to-action {
     margin-right:50px;
 }
+
+footer {
+    background-color: #1f2937;
+}
+
+footer .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.footer {
+    color: #f9faf8;
+    font-size: 12px;
+    padding: 18px 0;
+}
